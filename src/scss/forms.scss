@@ -1,0 +1,28 @@
+.form-search
+{
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23fff" class="bi bi-search" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/></svg>') no-repeat scroll 10px 50%;
+  background-color: #212529;
+  border-width: 2px;
+  border-color: #6a747c;
+  padding-left:35px;
+
+  &:focus
+  {
+    border-width: 2px;
+    border-color: #06479a;
+    box-shadow: none;
+    outline-width: 3px;
+    outline: blue;
+  }
+}
+
+textarea
+{
+  border: none;
+  outline: none;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  resize: none;
+  white-space: pre;
+}

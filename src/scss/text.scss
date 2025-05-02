@@ -1,0 +1,58 @@
+a
+{
+  color: white;
+  text-decoration: none;
+}
+
+.link
+{
+  color: var( --bs-secondary-color );
+
+  &:hover
+  {
+    color: dodgerblue;
+    cursor: pointer;
+  }
+}
+
+.tag-link:hover
+{
+  color: dodgerblue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.commit-link:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.sha-link
+{
+  text-decoration: underline;
+  &:hover
+  {
+    cursor: pointer;
+  }
+}
+
+.footer-link
+{
+  color: darkgray;
+
+  &:hover
+  {
+    cursor: pointer;
+  }
+}
+
+.file-link
+{
+  color: dodgerblue;
+  &:hover
+  {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}

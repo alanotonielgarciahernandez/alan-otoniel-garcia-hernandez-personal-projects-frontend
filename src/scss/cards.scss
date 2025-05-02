@@ -1,0 +1,22 @@
+.card
+{
+  --bs-card-border-color: var( --bs-gray );
+  --bs-card-border-width: 3px;
+}
+
+.files-tree
+{
+  background-color: transparent;
+  border: none;
+  
+  --bs-card-border-color: transparent;
+  --bs-card-border-width: 0px;
+  --bs-card-cap-bg: transparent;
+}
+
+.outlined
+{
+  --bs-card-bg: transparent;
+  --bs-card-border-width: 1px;
+  --bs-card-cap-bg: transparent;
+}

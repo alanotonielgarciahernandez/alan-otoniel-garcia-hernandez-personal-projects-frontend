@@ -1,0 +1,20 @@
+.list-group-item-branch
+{
+  box-sizing: border-box;
+  &:hover
+  {
+    border: none;
+    border-radius: 5px;
+  }
+}
+
+.list-group-commit
+{
+  --bs-list-group-bg: transparent;
+  
+  &:hover
+  {
+    --bs-list-group-bg: var( --bs-tertiary-bg );
+    cursor: default;
+  }
+}
